@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.AI;
+
+public class R_Enemy : MonoBehaviour
+{
+    private R_StateMachine stateMachine;
+    private NavMeshAgent agent;
+
+    public NavMeshAgent Agent { get => agent; }
+
+    // Just for debugging purposes.
+    [SerializeField]
+    private string currentState;
+    public R_Path path;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        stateMachine = GetComponent<R_StateMachine>();
+        agent = GetComponent<NavMeshAgent>();
+        stateMachine.Initialise();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+}
