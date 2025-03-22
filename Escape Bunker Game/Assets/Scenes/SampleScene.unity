@@ -903,12 +903,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629827681}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 12.69, y: 30.67204, z: 35.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.70710677, y: -0, z: -0, w: 0.7071069}
+  m_LocalPosition: {x: 0.27617177, y: 7.3103766, z: 4.7318487}
+  m_LocalScale: {x: 1.0344465, y: 2.669906, z: 2.5383246}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1396044777}
+  m_Father: {fileID: 933757005}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &678364948 stripped
 Transform:
@@ -1888,12 +1888,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130635628}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 12.690002, y: 29.542042, z: 35.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.70710677, y: -0, z: -0, w: 0.7071069}
+  m_LocalPosition: {x: 0.27617177, y: 4.4420714, z: 4.731849}
+  m_LocalScale: {x: 1.0344465, y: 2.669906, z: 2.5383246}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1396044777}
+  m_Father: {fileID: 933757005}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1139944095
 PrefabInstance:
@@ -1961,7 +1961,13 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0529c95baad5a264787a242f949623c9, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: ed676e4f39c168549bec09ecb638c51a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1130635630}
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: ed676e4f39c168549bec09ecb638c51a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 629827683}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed676e4f39c168549bec09ecb638c51a, type: 3}
 --- !u!1 &1150662762 stripped
@@ -2712,8 +2718,6 @@ Transform:
   - {fileID: 516707112}
   - {fileID: 473684791}
   - {fileID: 1254200561}
-  - {fileID: 1130635630}
-  - {fileID: 629827683}
   - {fileID: 908583278}
   - {fileID: 350400058}
   m_Father: {fileID: 0}
